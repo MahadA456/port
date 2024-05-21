@@ -2,13 +2,13 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #F5F5F5; /* Lighter grey */
-  color: #333333; /* Dark grey for text */
+  background-color: #F3F4F6; /* Light Grey */
+  color: #333333; /* Dark Grey for text */
 }
 
 /* Navbar styles */
 .navbar, .navbar-collapse {
-  background-color: #6A5ACD; /* Slate blue */
+  background-color: #6A1B9A; /* Deep Purple */
   color: #ffffff;
 }
 
@@ -17,33 +17,33 @@ body {
 }
 
 .nav-link:hover {
-  color: #FFD700; /* Gold */
+  color: #FF7043; /* Orange */
 }
 
 /* Card styles for projects */
 .card {
   background-color: #FFFFFF; /* White background for cards */
-  border: 1px solid #ddd; /* Light grey border */
+  border: 1px solid #ddd; /* Light Grey border */
   color: #333333;
 }
 
 .btn-primary {
-  background-color: #32CD32; /* Lime Green */
-  border-color: #32CD32;
+  background-color: #00897B; /* Teal */
+  border-color: #00897B;
 }
 
 .btn-primary:hover {
-  background-color: #FFD700; /* Gold */
-  color: #333333;
+  background-color: #FF7043; /* Orange */
+  color: #ffffff;
 }
 
 /* Progress Bar customization */
 .progress {
-  background-color: #d3d3d3; /* Light grey */
+  background-color: #d3d3d3; /* Light Grey */
 }
 
 .progress-bar {
-  background-color: #6A5ACD; /* Slate blue */
+  background-color: #6A1B9A; /* Deep Purple */
 }
 
 /* Modal customizations */
@@ -56,24 +56,78 @@ body {
 .form-control {
   background-color: #FFFFFF; /* White */
   color: #333333;
-  border: 1px solid #6A5ACD; /* Slate blue */
+  border: 1px solid #6A1B9A; /* Deep Purple */
 }
 
 .form-control:focus {
-  border-color: #FFD700; /* Gold */
+  border-color: #FF7043; /* Orange */
   box-shadow: none;
 }
 
 /* Adjust link colors for contact section */
 .contact a {
-  color: #32CD32; /* Lime Green */
+  color: #00897B; /* Teal */
 }
 
 .contact a:hover {
-  color: #6A5ACD; /* Slate blue */
+  color: #6A1B9A; /* Deep Purple */
 }
 
 /* General padding for sections */
 .container {
   padding-top: 20px;
+}
+
+/* Skills Section */
+.skill-item {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #FFFFFF; /* White background for skills */
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h5 {
+  margin-top: 10px;
+  color: #6A1B9A; /* Deep Purple for skill title */
+}
+
+.skill-item p {
+  color: #666;
+}
+
+/* Introduction Section */
+.introduction-container {
+  display: flex;
+  align-items: center;
+  padding: 70px 20px;
+  text-align: left;
+  background-color: #FFFFFF; /* White */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 4px solid #6A1B9A; /* Deep Purple */
+}
+
+.bio h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  font-size: 1.2rem;
+  color: #666;
 }
