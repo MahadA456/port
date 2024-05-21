@@ -1,32 +1,21 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
     return (
-        <div className="container">
+        <Container id="contact" className="text-center mt-5" style={{ paddingTop: '70px' }}>
             <h2>Contact Me</h2>
-            <Form>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicDate">
-                    <Form.Label>Date</Form.Label>
-                    <Form.Control type="date" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicDescription">
-                    <Form.Label>Description</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
-        </div>
+            <div className="social-links d-flex justify-content-center align-items-center" style={{ height: '200px', fontSize: '40px' }}>
+                <a href="https://www.linkedin.com/in/mahad-alam-shah-" target="_blank" rel="noopener noreferrer" className="mx-4">
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                </a>
+                <a href="https://github.com/MahadA456" target="_blank" rel="noopener noreferrer" className="mx-4">
+                    <FontAwesomeIcon icon={faGithub} size="3x" />
+                </a>
+            </div>
+        </Container>
     );
 }
 

@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* General Body and Background */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #191970; /* Deep midnight blue */
+  color: #ffffff; /* White text color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar styles */
+.navbar, .navbar-collapse {
+  background-color: #00bfff; /* Deep sky blue */
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link:hover {
+  color: #ff7f50; /* Coral */
 }
 
-.App-link {
-  color: #61dafb;
+/* Card styles for projects */
+.card {
+  background-color: #191970;
+  border: none;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary {
+  background-color: #ff7f50;
+  border-color: #ff7f50;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #191970;
+}
+
+/* Progress Bar customization */
+.progress {
+  background-color: #d3d3d3;
+}
+
+.progress-bar {
+  background-color: #00bfff;
+}
+
+/* Modal customizations */
+.modal-content {
+  background-color: #191970;
+  color: #ffffff;
+}
+
+/* Form and input styles */
+.form-control {
+  background-color: #191970;
+  color: #ffffff;
+  border: 1px solid #00bfff;
+}
+
+.form-control:focus {
+  border-color: #ff7f50;
+  box-shadow: none;
+}
+
+/* Adjust link colors for contact section */
+.contact a {
+  color: #ff7f50;
+}
+
+.contact a:hover {
+  color: #00bfff;
+}
+
+/* General padding for sections */
+.container {
+  padding-top: 20px;
 }

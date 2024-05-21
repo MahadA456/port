@@ -1,18 +1,26 @@
 import React from 'react';
-import { ProgressBar } from 'react-bootstrap';
+import { ProgressBar, Container, Row, Col } from 'react-bootstrap';
 
 function Skills() {
     return (
-        <div className="container text-center">
+        <div id="skills" className="container text-center" style={{ paddingTop: '70px' }}>
             <h2>Skills</h2>
-            <div className="row">
-                {/* Example Skill */}
-                <div className="col-md-4">
-                    <p>JavaScript</p>
-                    <ProgressBar now={80} label={`80%`} />
-                </div>
-                {/* Add more skills as needed */}
-            </div>
+            <Container>
+                <Row className="mb-3">
+                    <Col md={4}>
+                        <h5>React</h5>
+                        <ProgressBar now={60} label={`60%`} />
+                    </Col>
+                    <Col md={4}>
+                        <h5>Flutter</h5>
+                        <ProgressBar now={50} label={`50%`} />
+                    </Col>
+                    <Col md={4}>
+                        <h5>HTML/CSS</h5>
+                        <ProgressBar now={60} label={`60%`} />
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }
