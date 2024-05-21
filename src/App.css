@@ -2,13 +2,13 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #191970; /* Deep midnight blue */
-  color: #ffffff; /* White text color */
+  background-color: #F5F5F5; /* Lighter grey */
+  color: #333333; /* Dark grey for text */
 }
 
 /* Navbar styles */
 .navbar, .navbar-collapse {
-  background-color: #00bfff; /* Deep sky blue */
+  background-color: #6A5ACD; /* Slate blue */
   color: #ffffff;
 }
 
@@ -17,60 +17,60 @@ body {
 }
 
 .nav-link:hover {
-  color: #ff7f50; /* Coral */
+  color: #FFD700; /* Gold */
 }
 
 /* Card styles for projects */
 .card {
-  background-color: #191970;
-  border: none;
-  color: #ffffff;
+  background-color: #FFFFFF; /* White background for cards */
+  border: 1px solid #ddd; /* Light grey border */
+  color: #333333;
 }
 
 .btn-primary {
-  background-color: #ff7f50;
-  border-color: #ff7f50;
+  background-color: #32CD32; /* Lime Green */
+  border-color: #32CD32;
 }
 
 .btn-primary:hover {
-  background-color: #ffffff;
-  color: #191970;
+  background-color: #FFD700; /* Gold */
+  color: #333333;
 }
 
 /* Progress Bar customization */
 .progress {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3; /* Light grey */
 }
 
 .progress-bar {
-  background-color: #00bfff;
+  background-color: #6A5ACD; /* Slate blue */
 }
 
 /* Modal customizations */
 .modal-content {
-  background-color: #191970;
-  color: #ffffff;
+  background-color: #FFFFFF; /* White */
+  color: #333333;
 }
 
 /* Form and input styles */
 .form-control {
-  background-color: #191970;
-  color: #ffffff;
-  border: 1px solid #00bfff;
+  background-color: #FFFFFF; /* White */
+  color: #333333;
+  border: 1px solid #6A5ACD; /* Slate blue */
 }
 
 .form-control:focus {
-  border-color: #ff7f50;
+  border-color: #FFD700; /* Gold */
   box-shadow: none;
 }
 
 /* Adjust link colors for contact section */
 .contact a {
-  color: #ff7f50;
+  color: #32CD32; /* Lime Green */
 }
 
 .contact a:hover {
-  color: #00bfff;
+  color: #6A5ACD; /* Slate blue */
 }
 
 /* General padding for sections */
